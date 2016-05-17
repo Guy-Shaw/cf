@@ -13,7 +13,7 @@ Extract / suppress any combination of:
 
 
 `libcf` is a library that provides the data types and functions
-makes it relatively easy to filter comments, strings, and character
+that make it relatively easy to filter comments, strings, and character
 literals.  It does this by maintaining a state machine.
 
 Its state machine is not unlike many that are used
@@ -26,7 +26,7 @@ They simplifying idea is to run the state machine and deliver to
 the caller a series of super-characters.  These super-characters
 are represented by `{ character class, character }` pairs.
 These results can be considered to be an extended character set.
-That is, we can think of the super-characters as character in some
+That is, we can think of the super-characters as characters in some
 sort of super-Unicode 64-bit character set.  We can pretend that
 the characters inside comments are all distinct from any characters
 outside of comments, and similarly for the super-unicode code blocks
@@ -76,7 +76,7 @@ filters out everything but comments
   --show=code
 ```
 strips comments, inner-string, and inner-char
-but leaves the single quote marks and double-quote marks
+but leaves the single quote marks and double-quote marks intact.
 
 
 
