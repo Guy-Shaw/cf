@@ -18,7 +18,8 @@ enum cclass_set {
     CC_OUTER_COMMENT = 0x0040,
     CC_INNER_COMMENT = 0x0080,
     CC_EOF           = 0x0100,
-    CC_SETMASK       = 0x01FF,
+    CC_ERR           = 0x0200,
+    CC_SETMASK       = 0x03FF,
 };
 
 

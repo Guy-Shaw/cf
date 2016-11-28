@@ -39,7 +39,7 @@
  * at hand, like stripping comments.  But, libcf lets you use the
  * state machine for whatever.
  *
- * They simplifying idea is to run the state machine and deliver to
+ * The simplifying idea is to run the state machine and deliver to
  * the caller a series of { character class, character } pairs.
  * These results can be considered to be an extended character set.
  * That is, we can think of the { class, character } pair as some
